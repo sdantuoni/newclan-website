@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Santiago D&#x27;Antuoni - nico.dantuoni@hotmail.com
+
+# THANKS
+
+  <name>
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
