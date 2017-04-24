@@ -1,0 +1,23 @@
+.news-container {
+  width: 100%;
+}
+.news-content {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.news-content h2 {
+  float: center; margin: 0px 200px 15px 10px;
+}
+
+.news-content p {
+  float: left; margin: 0px 200px 15px 10px;
+}
+
+.news-content img {
+  width: 300px;
+  height: 300px;
+}

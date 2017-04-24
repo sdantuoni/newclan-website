@@ -8,6 +8,8 @@ import Header from '../../components/header';
 import Slider from '../../components/slider';
 import Info from '../../components/info';
 import Footer from '../../components/footer';
+import News from '../../components/news';
+
 
 class Landing extends React.Component {
   constructor(props) {
@@ -37,7 +39,10 @@ class Landing extends React.Component {
             <div className="big">
               <Slider/>
               {/* <ScrollableAnchor id={'info'}><Info /></ScrollableAnchor> */}
-              <section id="info"><Info/></section>
+              <div className="contenido">
+                <section className="news" id="news"><News/></section>
+                <section className="info" id="info"><Info/></section>
+              </div>
             </div>
           </article>
         </div>
