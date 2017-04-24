@@ -1,0 +1,57 @@
+
+.header-box ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    height: 60px;
+}
+
+.header-box li {
+    float: left;
+}
+
+.header-box li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+.header-box li::after {
+  content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+
+.header-box li:hover::after {
+    width: 100%;
+	background: white;
+}
+
+.account-btn {
+  float:right;
+}
+
+.account-btn:hover .account-txt {
+opacity: 1; transform:
+translateX(0);
+}
+
+.account-txt {
+  opacity: 0;
+  transform: translateX(150px);
+  display: inline;
+}
+
+.account-txt:hover {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all .5s ease
+}

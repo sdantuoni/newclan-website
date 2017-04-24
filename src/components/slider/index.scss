@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark');
+
+.image{
+  width: 100%;
+  height: 91vh;
+  z-index: 0;
+  padding-bottom: 40px;
+}
+
+.image img{
+  width: 100%;
+  height: 91vh;
+  z-index: 0;
+}
+
+.messages {
+  width: 900px;
+  height: 400px;
+  z-index: 1;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.messages h1 {
+  color: white;
+  font-size: 25pt;
+  text-align: center;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.messages p {
+  color: white;
+  font-size: 15pt;
+  text-align: center;
+  font-family: 'Palanquin Dark', sans-serif;
+}
+
+.messages button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+    right: 45%;
+    top: 70%;
+
+}

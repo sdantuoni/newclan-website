@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.info {
+  background-image: url('http://www.smartdrive.ie/wp-content/uploads/2015/03/serversbanner.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.column-container{
+  width: 90%;
+}
+
+.column-container h1 {
+  font-size: 30pt;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.column-container p {
+  color: white;
+}
+
+.img-grid .aws {
+  width: 150px;
+  height: 80px;
+}
+
+.img-grid .analytics {
+  width: 250px;
+  height: 80px;
+}
+
+.img-grid .godaddy {
+  width: 150px;
+  height: 40px;
+  padding-bottom: 20px;
+}
