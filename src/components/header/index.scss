@@ -36,22 +36,20 @@
 }
 
 .account-btn {
-  float:right;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+}
+
+.account-btn .account-txt {
+  display: none;
+   opacity: 0;
+   transform: translateX(150px);
+   transition: all .5s ease-in-out;
 }
 
 .account-btn:hover .account-txt {
-opacity: 1; transform:
-translateX(0);
-}
-
-.account-txt {
-  opacity: 0;
-  transform: translateX(150px);
-  display: inline;
-}
-
-.account-txt:hover {
-  opacity: 1;
-  transform: translateX(0);
-  transition: all .5s ease
+   opacity: 1;
+   transform: translateX(0);
+    display: inline;
 }

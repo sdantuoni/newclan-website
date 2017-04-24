@@ -1,23 +1,36 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-.info {
+.servers {
   background-image: url('http://www.smartdrive.ie/wp-content/uploads/2015/03/serversbanner.jpg');
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.column-container{
+.code {
+  background-image: url('http://www.worcester.ac.uk/content_images/web-development-university-worcester-course-page-header.jpg');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servers-container{
   width: 90%;
 }
 
-.column-container h1 {
+.background {
+  width: 100%;
+  padding-left: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.servers-container h1 {
   font-size: 30pt;
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
 
-.column-container p {
+.servers-container p {
   color: white;
 }
 
@@ -34,5 +47,23 @@
 .img-grid .godaddy {
   width: 150px;
   height: 40px;
+  padding-bottom: 20px;
+}
+
+.img-grid .nodejs {
+  width: 80px;
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.img-grid .reactjs {
+  width: 150px;
+  height: 40px;
+  padding-bottom: 20px;
+}
+
+.img-grid .github {
+  width: 100px;
+  height: 50px;
   padding-bottom: 20px;
 }

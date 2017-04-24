@@ -18,6 +18,11 @@
   background: #f8f8f8;
 }
 
+.contenido {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .wrapper .body {
   flex: 1;
   overflow: auto;
@@ -28,6 +33,10 @@
   position: absolute;
   flex: 0 0 150px;
   width: 100%;
+}
+
+.info {
+  padding-bottom: 40px;
 }
 
 .wrapper .big {
